@@ -12,3 +12,7 @@ print(arr.dtype)
 # change data type by using astype
 print(arr.astype(np.int64)) # [10 20 30 40]
 
+# BroadCasting
+numbers = np.array([1,2,3])
+print(numbers+10) # [11 12 13]
+
